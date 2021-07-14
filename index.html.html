@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="booksearch.css">
+    <title>Book Search</title>
+  </head>
+  <body>
+
+    <div class="topnav" id="myTopnav">
+
+      <div id="cart">
+
+        <span id="sidenav"style="font-size:30px;cursor:pointer;"><a>&#9776;</a> </span>
+        <span class="heading"><a href="">Book Finder!</a></span>
+        <span class="heading2">  <a href="#home" class="active">Home</a></span>
+        <span class="heading3">  <a href="#" id="link1"><i class="fa">&#xf02d;  </i> <span id="badge">0</span></a></span>
+
+      </div>
+
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <div class="bookimg" style="display: flex; justify-content: center;">
+        <h2 style="text-align:center">My Read List</h2>
+      </div>
+    </div>
+
+
+
+
+  <div class = "main">
+
+    <input type="text" class="search"placeholder="Find Books">
+    <button id="btn"  class="btn">Search</button>
+
+  </div>
+  <div class="result">
+
+  </div>
+  <div id = "res">
+
+  </div>
+
+
+
+  <div id="myModal" class="modal">
+    <span class="close" id="close" style= "cursor:pointer">&times;</span>
+    <div class="modal-content" id="modal-content">
+
+       <h1>Empty   :(</h1>
+
+    </div>
+
+  </div>
+
+</body>
+<script src = "dist/main.bundle.js"></script>
+<!--
+
+
+<script src = "javascript/addToShelf.js"></script>
+
+<script src = "javascript/displayMyBooks.js"></script>
+
+<script src = "javascript/addToReadList.js"></script>
+
+<script src = "javascript/removeFromMyBooks.js"></script>
+
+<script src = "javascript/removeFromReadList.js"></script>
+
+<script src = "javascript/readFromReadList.js"></script>
+
+<script src = "javascript/displayReadList.js"></script>
+
+<script src = "javascript/OpenSideNav.js"></script>
+
+<script src = "javascript/clearAllMybooks.js"></script>
+
+<script src = "javascript/OpenMyBookstab.js"></script>
+
+-->
+<script>
+
+    var opens=1;
+
+    var i;
+    var j;
+    var objArr=[];
+    var json;
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var myBooksArr = [];
+    var readListArr = [];
+    var readListJson;
+    var r_list;
+    var r_list_buttons=[];
+    var rm_buttons = [];
+    var r_list_count=1;
+    var my_books_name=[];
+    var r_list_book_names=[];
+    var previewLinks =[];
+
+
+
+  </script>
+</html>
